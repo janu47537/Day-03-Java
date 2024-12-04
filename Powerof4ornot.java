@@ -1,0 +1,13 @@
+import java.util.*;
+public class Powerof4ornot{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if((n&(n-2))==0){
+            System.out.println("Power of 4");
+        }
+        else{
+            System.out.println("Not power of 4");
+        }
+        }
+    }
